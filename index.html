@@ -1,32 +1,801 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
 	<meta charset="UTF-8">
 	<title>FIGMA | Макеты для верстки — Верстка страницы</title>
 	<meta name="description" content="Макет для верстки сайта был взял с телеграм канала FIGMA | Макеты для верстки">
-    <link rel="stylesheet" href="css/base.css">
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css" />
+	<link rel="stylesheet" href="css/style.min.css">
+	<link rel="stylesheet" href="css/base.css">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Cormorant+Infant&family=Josefin+Sans&display=swap"
+		rel="stylesheet">
 </head>
+
 <body>
 
-    <!-- Начало: Данный блок удалять нельзя -->
-    <div class="maketforfigma">
-        <a href="https://t.me/s/FigmaToHTML" target="_blank">
-            <img src="img/logo.png">
-        </a>
-        <div>
-            <p>
-                Данная верстка, была реализована пользователем в рамках обучающего телеграм канал <a href="https://t.me/s/FigmaToHTML" target="_blank">FIGMA | Макеты для верстки</a>
-            </p>
-            <p>
-                При помощи <a href="https://t.me/HtmlCodeForMoney_bot?from_git" target="_blank">Telegram-бота</a> пользователь получил оплату за верстку этого макета.
-            </p>
-        </div>
-    </div>
-    <!-- Конец -->
+	<!-- Начало: Данный блок удалять нельзя -->
+	<div class="maketforfigma">
+		<a href="https://t.me/s/FigmaToHTML" target="_blank">
+			<img src="img/logo.png">
+		</a>
+		<div>
+			<p>
+				Данная верстка, была реализована пользователем в рамках обучающего телеграм канал <a
+					href="https://t.me/s/FigmaToHTML" target="_blank">FIGMA | Макеты для верстки</a>
+			</p>
+			<p>
+				При помощи <a href="https://t.me/HtmlCodeForMoney_bot?from_git" target="_blank">Telegram-бота</a>
+				пользователь получил оплату за верстку этого макета.
+			</p>
+		</div>
+	</div>
+	<!-- Конец -->
 
-    <div class="main">
-        В данном блоке размещается верстка
-    </div>
+	<div class="main">
+		<div class="wrapper">
+			<header class="header background-dark">
+				<section class="info">
+					<div class="container">
+						<div class="info__inner">
+							<a href="#" class="call btn-transperent">Call - 123 456 789 </a>
+							<a href="#" class="logo">
+								<img src="images/logo.svg" alt="">
+							</a>
+							<a href="#" class="reservation-btn btn-orange">Reservation </a>
+						</div>
+					</div>
+				</section>
+				<section class="navbar">
+					<div class="container">
+						<div class="navbar__inner">
+							<nav class="nav">
+								<ul class="nav__list">
+									<li class="nav__list-item"><a href="#"
+											class="nav__list-link nav__list-link--active text">Home</a></li>
+									<li class="nav__list-item"><a href="#" class="nav__list-link text">About Us</a></li>
+									<li class="nav__list-item"><a href="#" class="nav__list-link text">Our Menu</a></li>
+									<li class="nav__list-item"><a href="#" class="nav__list-link text">Pages</a></li>
+									<li class="nav__list-item"><a href="#" class="nav__list-link text">Blog</a></li>
+									<li class="nav__list-item"><a href="#" class="nav__list-link text">Contact Us</a>
+									</li>
+								</ul>
+							</nav>
+							<div class="networks">
+								<ul class="networks__list">
+									<li class="networks__list-item">
+										<a href="#" class="networks__list-link"><img src="images/insta.svg" alt=""
+												class="insta"></a>
+									</li>
+									<li class="networks__list-item">
+										<a href="#" class="networks__list-link"><img src="images/facebook.svg" alt=""
+												class="facebook"></a>
+									</li>
+									<li class="networks__list-item">
+										<a href="#" class="networks__list-link"><img src="images/twitter.svg" alt=""
+												class="twitter"></a>
+									</li>
+									<li class="networks__list-item">
+										<a href="#" class="networks__list-link"><img src="images/pinterest.svg" alt=""
+												class="pinterest"></a>
+									</li>
+								</ul>
+							</div>
+						</div>
+					</div>
+				</section>
+			</header>
+			<main>
+				<section class="welcome background-dark">
+					<div class="container">
+						<div class="welcome__inner">
+							<div class="welcome__block">
+								<h1 class="welcome__title">Welcome to Restaurant</h1>
+								<p class="welcome__text text">
+									The people, food and the prime locations make the perfect place good friends &
+									family to
+									come
+									together and have great time.
+								</p>
+								<a href="#" class="welcome__button btn-transperent">View Menu</a>
+							</div>
+							<div class="welcome__image">
+								<div class="welcome__img">
+									<div class="welcome__img-img">
+										<img src="images/restaurant.png" alt="">
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</section>
+				<section class="information">
+					<div class="container">
+						<div class="information__inner">
+							<div class="information__block">
+								<div class="information__block-icon">
+									<img src="images/icon-locate.svg" alt="">
+								</div>
+								<h3 class="information__block-name">Locate Us</h3>
+								<p class="information__block-text text">Riverside 25, San Diego, California</p>
+							</div>
+							<div class="information__block">
+								<div class="information__block-icon">
+									<img src="images/icon-hours.svg" alt="">
+								</div>
+								<h3 class="information__block-name">Open Hours</h3>
+								<p class="information__block-text text">Mon To Fri 9:00 AM - 9:00 PM</p>
+							</div>
+							<div class="information__block">
+								<div class="information__block-icon">
+									<img src="images/icon-reservation.svg" alt="">
+								</div>
+								<h3 class="information__block-name">Reservation</h3>
+								<p class="information__block-text text">restaurantate@gmail.com</p>
+							</div>
+						</div>
+					</div>
+				</section>
+				<section class="story">
+					<div class="container">
+						<div class="story__inner">
+							<div class="story__image">
+								<img src="images/story-image.jpg" alt="">
+							</div>
+							<div class="story__description">
+								<h2 class="story__description-title title">The Delicious Story</h2>
+								<p class="story__description-text text">The people, food and the prime locations make
+									the
+									perfect
+									place
+									for
+									the
+									friends & family to come together and have great time.</p>
+								<div class="story-years"> <!-- grid element -->
+									<div class="story-years__block">
+										<div class="story-years__year title">2018</div>
+										<p class="story-years__text text">
+											Plan for this restaurant to deliver healthy food.
+										</p>
+									</div>
+									<div class="story-years__block">
+										<div class="story-years__year title">2022</div>
+										<p class="story-years__text text">
+											Happily in the fourth year by fulfill the motto.
+										</p>
+									</div>
+								</div>
+								<div class="josefine text">
+									JOSEFINE
+								</div>
+								<div class="signature">
+									<img src="images/signature.svg" alt="">
+								</div>
+							</div>
+						</div>
+					</div>
+				</section>
+				<section class="menu">
+					<div class="container">
+						<div class="menu__inner">
+							<div class="menu-block">
+								<div class="menu__info with-borders">Menu</div>
+								<h2 class="menu-block__title title">Try Our Special dishes</h2>
+								<p class="menu-block__text text">Every time you perfectly dine with us, it should happy
+									for
+									great
+									inspired food in an environment designed with individual touches unique to the local
+									area.</p>
+								<div class="menu-block__image">
+									<img src="images/menu-image.jpg" alt="">
+								</div>
+								<a href="#" class="menu-block__button btn-transperent">See all dishes</a>
+							</div>
+							<div class="menu-block flex">
+								<div class="menu__dishes">
+									<h3 class="menu__dishes-title">Starters</h3>
+									<ul class="menu__dishes-list">
+										<li class="menu__dishes-item dish">
+											<div class="dish__image">
+												<img src="images/dish-image01.png" alt="">
+											</div>
+											<div class="dish__description">
+												<div class="dish__description-name">Raw Scallops from Erquy</div>
+												<div class="dish__description-text text">Shuck the scallop to that used
+													for
+													oysters</div>
+												<div class="dish__description-decor"></div>
 
+											</div>
+											<div class="dish__price dish-text ">
+												$40
+											</div>
+										</li>
+										<li class="menu__dishes-item dish">
+											<div class="dish__image">
+												<img src="images/dish-image02.png" alt="">
+											</div>
+											<div class="dish__description">
+												<div class="dish__description-name">Spring Roll</div>
+												<div class="dish__description-text text">Add oil to a hot pan spring
+													onion
+													whites
+												</div>
+												<div class="dish__description-decor"></div>
+											</div>
+											<div class="dish__price">
+												$20
+											</div>
+										</li>
+										<li class="menu__dishes-item dish">
+											<div class="dish__image">
+												<img src="images/dish-image03.png" alt="">
+											</div>
+											<div class="dish__description">
+												<div class="dish__description-name">French Onion Soup</div>
+												<div class="dish__description-text text">Wheat flour, apple cider
+													vinegar,
+													bread
+												</div>
+												<div class="dish__description-decor"></div>
+											</div>
+											<div class="dish__price">
+												$25
+											</div>
+										</li>
+										<li class="menu__dishes-item dish">
+											<div class="dish__image">
+												<img src="images/dish-image04.png" alt="">
+											</div>
+											<div class="dish__description">
+												<div class="dish__description-name">Tomato Bruschetta</div>
+												<div class="dish__description-text text">Bread, olive oil, garlic, black
+													pepper
+												</div>
+												<div class="dish__description-decor"></div>
+											</div>
+											<div class="dish__price">
+												$30
+											</div>
+										</li>
+									</ul>
+								</div>
+								<div class="menu__dishes">
+									<h3 class="menu__dishes-title">Main Dish</h3>
+									<ul class="menu__dishes-list">
+										<li class="menu__dishes-item dish">
+											<div class="dish__image">
+												<img src="images/dish-image05.png" alt="">
+											</div>
+											<div class="dish__description">
+												<div class="dish__description-name">Grilled Salmon with Dill Sauce</div>
+												<div class="dish__description-text text">Brown sugar, salmon fillet,
+													Dijon
+													mustard</div>
+												<div class="dish__description-decor"></div>
+											</div>
+											<div class="dish__price">
+												$40
+											</div>
+										</li>
+										<li class="menu__dishes-item dish">
+											<div class="dish__image">
+												<img src="images/dish-image06.png" alt="">
+											</div>
+											<div class="dish__description">
+												<div class="dish__description-name">Roast Beef with Vegetable</div>
+												<div class="dish__description-text text">Green beans, rib eye, olive
+													oil,
+													beef
+												</div>
+											</div>
+											<div class="dish__price">
+												$20
+											</div>
+										</li>
+										<li class="menu__dishes-item dish">
+											<div class="dish__image">
+												<img src="images/dish-image07.png" alt="">
+											</div>
+											<div class="dish__description">
+												<div class="dish__description-name">Marrkesh Vegetetarian Curruy</div>
+												<div class="dish__description-text text">Sweet potato, eggplant,
+													garbanzo
+													bean
+												</div>
+												<div class="dish__description-decor"></div>
+											</div>
+											<div class="dish__price">
+												$25
+											</div>
+										</li>
+										<li class="menu__dishes-item dish">
+											<div class="dish__image">
+												<img src="images/dish-image08.png" alt="">
+											</div>
+											<div class="dish__description">
+												<div class="dish__description-name">Spicy Vegan Potato Curry</div>
+												<div class="dish__description-text text">Coconut milk, beans, potatoes,
+													curry
+													powder
+												</div>
+												<div class="dish__description-decor"></div>
+											</div>
+											<div class="dish__price">
+												$35
+											</div>
+										</li>
+									</ul>
+								</div>
+								<div class="menu__dishes">
+									<h3 class="menu__dishes-title">Dessert</h3>
+									<ul class="menu__dishes-list">
+										<li class="menu__dishes-item dish">
+											<div class="dish__image">
+												<img src="images/dish-image09.png" alt="">
+											</div>
+											<div class="dish__description">
+												<div class="dish__description-name">Apple Pie with Cream</div>
+												<div class="dish__description-text text">Whipping cream, egg white,
+													cinnamon
+												</div>
+												<div class="dish__description-decor"></div>
+											</div>
+											<div class="dish__price">
+												$15
+											</div>
+										</li>
+										<li class="menu__dishes-item dish">
+											<div class="dish__image">
+												<img src="images/dish-image10.png" alt="">
+											</div>
+											<div class="dish__description">
+												<div class="dish__description-name">Lemon Meringue Pie</div>
+												<div class="dish__description-text text">Frozen pie crust, meringue,
+													lemon
+												</div>
+												<div class="dish__description-decor"></div>
+											</div>
+											<div class="dish__price">
+												$30
+											</div>
+										</li>
+									</ul>
+								</div>
+							</div>
+						</div>
+					</div>
+				</section>
+				<section class="reviews background-dark">
+					<div class="container">
+						<div class="reviews__info with-borders">
+							Testimonial
+						</div>
+						<h3 class="reviews__title title">
+							our clients say
+						</h3>
+						<p class="reviews__text text">
+							We love to hear from customers, so please leave a comment or say hello in an email.
+						</p>
+						<div class="slider">
+							<div class="swiper">
+								<div class="swiper-wrapper">
+									<div class="swiper-slide reviews__review">
+										<div class="reviews__photo-wrapper">
+											<img class="reviews__photo" src="images/image1.png" alt="">
+										</div>
+										<div class="reviews__author">
+											<div class="reviews__author-name">
+												Natasha Da
+											</div>
+											<div class="reviews__author-city text">
+												Newyork
+											</div>
+										</div>
+										<div class="reviews__decor"></div>
+										<div class="reviews__feedback">
+											They known for its fabulous taste and food. Anywhere you go your hunger is
+											satisfied. The best chicken & burgers those are yummy.
+										</div>
+									</div>
+									<div class="swiper-slide reviews__review">
+										<div class="reviews__review-images">
+											<!-- <img class="reviews__photo-decor" src="images/icon.svg" alt=""> -->
+											<div class="reviews__photo-wrapper">
+												<img class="reviews__photo" src="images/image2.png" alt="">
+											</div>
+										</div>
+										<div class="reviews__author">
+											<div class="reviews__author-name">
+												Jack Sparrow
+											</div>
+											<div class="reviews__author-city text">
+												Salt Lake City
+											</div>
+										</div>
+										<div class="reviews__decor"></div>
+										<div class="reviews__feedback">
+											I have visited this fantastic restaurant on several occasions, food is
+											absolutely
+											outstanding & attention to detail is in league of its own.
+										</div>
+									</div>
+									<div class="swiper-slide reviews__review">
+										<div class="reviews__review-images">
+											<!-- <img class="reviews__photo-decor" src="images/icon.svg" alt=""> -->
+											<div class="reviews__photo-wrapper">
+												<img class="reviews__photo" src="images/image3.png" alt="">
+											</div>
+										</div>
+										<div class="reviews__author">
+											<div class="reviews__author-name">
+												Martin
+											</div>
+											<div class="reviews__author-city text">
+												San Diego
+											</div>
+										</div>
+										<div class="reviews__decor"></div>
+										<div class="reviews__feedback">
+											Perfectly known for its fabulous taste and food. Anywhere your hunger is
+											satisfied.
+											They give best fried chicken and burgers those are yummy.
+										</div>
+									</div>
+								</div>
+								<div class="swiper-pagination"></div>
+							</div>
+						</div>
+					</div>
+				</section>
+				<section class="background-image">
+					<img src="images/photo.jpg" alt="">
+				</section>
+				<section class="offers">
+					<div class="container">
+						<div class="offers__info with-borders">offers</div>
+						<h2 class="offers__title title">Our Offer dishes</h2>
+						<p class="offers__text text">Our chefs create melt-in-your-mouth dishes that'll satiate even the
+							fussiest
+							eaters now the dishes are in offers use it based on hunger.</p>
+						<ul class="offers__list">
+							<li class="offers-item burger">
+								<div class="offers-item__info">
+									<div class="offers-item__price"> <!-- margin 0 auto display flex -->
+										<svg class="svg-1" xmlns="http://www.w3.org/2000/svg" width="167" height="104"
+											viewBox="0 0 167 104" fill="none">
+											<path
+												d="M76.2043 7.7695C78.7253 5.23569 84.6443 5.23569 87.1653 7.7695C89.2782 9.89321 93.9594 10.3124 96.9476 8.64536C100.513 6.65651 106.192 7.69504 107.465 10.5685C108.531 12.977 112.833 14.2004 116.454 13.1252C120.775 11.8424 125.755 13.8353 125.675 16.8156C125.609 19.3136 129.183 21.2423 133.144 20.846C137.871 20.3732 141.747 23.159 140.322 26.0048C139.129 28.39 141.685 30.8676 145.665 31.1823C150.414 31.5578 152.873 34.9109 150.219 37.3915C147.995 39.4707 149.327 42.2966 153.003 43.2968C157.389 44.4902 158.231 48.1388 154.563 50.0533C151.488 51.658 151.488 54.6032 154.563 56.2079C158.231 58.1225 157.389 61.771 153.003 62.9644C149.327 63.9646 147.995 66.7905 150.219 68.8697C152.873 71.3503 150.414 74.7034 145.665 75.0788C141.685 75.3934 139.129 77.8713 140.322 80.2565C141.747 83.1022 137.871 85.8883 133.144 85.4151C129.183 85.0187 125.609 86.9479 125.675 89.4454C125.755 92.426 120.775 94.4186 116.454 93.1359C112.833 92.0605 108.531 93.2844 107.465 95.693C106.192 98.5665 100.513 99.605 96.9476 97.6155C93.9594 95.9485 89.2782 96.3682 87.1653 98.4919C84.6443 101.026 78.7253 101.026 76.2043 98.4919C74.0914 96.3682 69.4102 95.9485 66.422 97.6155C62.8569 99.605 57.1775 98.5665 55.9051 95.693C54.8384 93.2844 50.5365 92.0605 46.9153 93.1359C42.5948 94.4186 37.6153 92.426 37.6943 89.4454C37.7605 86.9479 34.1864 85.0187 30.2253 85.4151C25.4996 85.8883 21.6234 83.1022 23.0475 80.2565C24.241 77.8713 21.6841 75.3934 17.7043 75.0788C12.9561 74.7034 10.4972 71.3503 13.151 68.8697C15.3753 66.7905 14.0429 63.9646 10.3666 62.9644C5.9806 61.771 5.13823 58.1225 8.80673 56.2079C11.8816 54.6032 11.8816 51.658 8.80673 50.0533C5.13823 48.1388 5.9806 44.4902 10.3666 43.2968C14.0429 42.2966 15.3753 39.4707 13.151 37.3915C10.4972 34.9109 12.9561 31.5578 17.7043 31.1823C21.6841 30.8676 24.241 28.39 23.0475 26.0048C21.6234 23.159 25.4996 20.3732 30.2253 20.846C34.1864 21.2423 37.7605 19.3136 37.6943 16.8156C37.6153 13.8353 42.5948 11.8424 46.9153 13.1252C50.5365 14.2004 54.8384 12.977 55.9051 10.5685C57.1775 7.69504 62.8569 6.65651 66.422 8.64536C69.4102 10.3124 74.0914 9.89321 76.2043 7.7695Z"
+												fill="#82B4B4" />
+											<path
+												d="M79.8347 5.50826C82.3557 2.97446 88.2747 2.97446 90.7957 5.50826C92.9086 7.63198 97.5898 8.05115 100.578 6.38415C104.143 4.39528 109.822 5.4338 111.095 8.30723C112.162 10.7157 116.463 11.9392 120.085 10.864C124.405 9.58115 129.385 11.574 129.305 14.5544C129.24 17.0524 132.813 18.9811 136.774 18.5848C141.501 18.1119 145.377 20.8978 143.953 23.7435C142.76 26.1288 145.315 28.6064 149.296 28.9211C154.044 29.2966 156.503 32.6496 153.849 35.1303C151.625 37.2094 152.957 40.0354 156.634 41.0356C161.019 42.2289 161.862 45.8775 158.194 47.792C155.119 49.3968 155.119 52.342 158.194 53.9467C161.862 55.8612 161.019 59.5098 156.634 60.7032C152.957 61.7034 151.625 64.5293 153.849 66.6085C156.503 69.0891 154.044 72.4421 149.296 72.8176C145.315 73.1324 142.76 75.6101 143.953 77.9953C145.377 80.841 141.501 83.6271 136.774 83.1538C132.813 82.7574 129.24 84.6867 129.305 87.1842C129.385 90.1648 124.405 92.1574 120.085 90.8747C116.463 89.7993 112.162 91.0232 111.095 93.4318C109.822 96.3053 104.143 97.3438 100.578 95.3542C97.5898 93.6872 92.9086 94.107 90.7957 96.2307C88.2747 98.7644 82.3557 98.7644 79.8347 96.2307C77.7218 94.107 73.0406 93.6872 70.0524 95.3542C66.4873 97.3438 60.808 96.3053 59.5355 93.4318C58.4689 91.0232 54.1669 89.7993 50.5457 90.8747C46.2252 92.1574 41.2457 90.1648 41.3248 87.1842C41.391 84.6867 37.8168 82.7574 33.8557 83.1538C29.13 83.6271 25.2538 80.841 26.6779 77.9953C27.8715 75.6101 25.3145 73.1324 21.3347 72.8176C16.5865 72.4421 14.1276 69.0891 16.7814 66.6085C19.0057 64.5293 17.6733 61.7034 13.997 60.7032C9.61103 59.5098 8.76866 55.8612 12.4371 53.9467C15.512 52.342 15.512 49.3968 12.4371 47.7921C8.76866 45.8775 9.61103 42.2289 13.997 41.0356C17.6733 40.0354 19.0057 37.2094 16.7814 35.1303C14.1276 32.6496 16.5865 29.2966 21.3347 28.9211C25.3145 28.6064 27.8715 26.1288 26.6779 23.7435C25.2538 20.8978 29.13 18.1119 33.8557 18.5848C37.8168 18.9811 41.391 17.0524 41.3248 14.5544C41.2457 11.574 46.2252 9.58115 50.5457 10.864C54.1669 11.9392 58.4689 10.7157 59.5355 8.30723C60.808 5.43379 66.4873 4.39528 70.0524 6.38415C73.0406 8.05115 77.7218 7.63198 79.8347 5.50826Z"
+												fill="white" />
+										</svg>
+										<div class="price-block">
+											<span class="price-text">
+												Only
+											</span>
+											<span class="price-num">
+												$10
+											</span>
+										</div>
+									</div>
+									<div class="offers-item__element with-borders">
+										50% Offer Going
+									</div>
+									<h3 class="offers-item__name title">Chicken Burger</h3>
+									<p class="offers-item__text text">Chicken burger with the tasty toppings and leaves.
+									</p>
+								</div>
+								<div class="offers-item__image">
+									<img src="images/burger.png" alt="">
+								</div>
+							</li>
+							<li class="offers-item pizza">
+								<div class="offers-item__info">
+									<div class="offers-item__price pizza-price"> <!-- margin 0 auto display flex -->
+										<svg class="svg-2" xmlns="http://www.w3.org/2000/svg" width="166" height="104"
+											viewBox="0 0 166 104" fill="none">
+											<path
+												d="M75.7479 7.7695C78.2538 5.23569 84.1374 5.23569 86.6433 7.7695C88.7436 9.89321 93.3967 10.3124 96.3671 8.64536C99.9108 6.65651 105.556 7.69504 106.821 10.5685C107.881 12.977 112.157 14.2004 115.757 13.1252C120.052 11.8424 125.002 13.8353 124.922 16.8156C124.857 19.3136 128.409 21.2423 132.346 20.846C137.045 20.3732 140.898 23.159 139.482 26.0048C138.296 28.39 140.837 30.8676 144.793 31.1823C149.513 31.5578 151.957 34.9109 149.319 37.3915C147.108 39.4707 148.433 42.2966 152.087 43.2968C156.447 44.4902 157.284 48.1388 153.638 50.0533C150.581 51.658 150.581 54.6032 153.638 56.2079C157.284 58.1225 156.447 61.771 152.087 62.9644C148.433 63.9646 147.108 66.7905 149.319 68.8697C151.957 71.3503 149.513 74.7034 144.793 75.0788C140.837 75.3934 138.296 77.8713 139.482 80.2565C140.898 83.1022 137.045 85.8883 132.346 85.4151C128.409 85.0187 124.857 86.9479 124.922 89.4454C125.002 92.426 120.052 94.4186 115.757 93.1359C112.157 92.0605 107.881 93.2844 106.821 95.693C105.556 98.5665 99.9108 99.605 96.3671 97.6155C93.3967 95.9485 88.7436 96.3682 86.6433 98.4919C84.1374 101.026 78.2538 101.026 75.7479 98.4919C73.6477 96.3682 68.9945 95.9485 66.0242 97.6155C62.4804 99.605 56.8351 98.5665 55.5703 95.693C54.51 93.2844 50.2339 92.0605 46.6343 93.1359C42.3397 94.4186 37.39 92.426 37.4686 89.4454C37.5344 86.9479 33.9816 85.0187 30.0443 85.4151C25.3469 85.8883 21.4938 83.1022 22.9094 80.2565C24.0958 77.8713 21.5542 75.3934 17.5983 75.0788C12.8784 74.7034 10.4343 71.3503 13.0722 68.8697C15.2832 66.7905 13.9588 63.9646 10.3045 62.9644C5.94476 61.771 5.10743 58.1225 8.75397 56.2079C11.8104 54.6032 11.8104 51.658 8.75397 50.0533C5.10743 48.1388 5.94476 44.4902 10.3045 43.2968C13.9588 42.2966 15.2832 39.4707 13.0722 37.3915C10.4343 34.9109 12.8784 31.5578 17.5983 31.1823C21.5542 30.8676 24.0958 28.39 22.9094 26.0048C21.4938 23.159 25.3469 20.3732 30.0443 20.846C33.9816 21.2423 37.5344 19.3136 37.4686 16.8156C37.39 13.8353 42.3397 11.8424 46.6343 13.1252C50.2339 14.2004 54.51 12.977 55.5703 10.5685C56.8351 7.69504 62.4804 6.65651 66.0242 8.64536C68.9945 10.3124 73.6477 9.89321 75.7479 7.7695Z"
+												fill="#BBBBBB" />
+											<path
+												d="M79.3566 5.50826C81.8625 2.97446 87.7461 2.97446 90.252 5.50826C92.3523 7.63198 97.0054 8.05115 99.9758 6.38415C103.52 4.39528 109.165 5.4338 110.43 8.30723C111.49 10.7157 115.766 11.9392 119.366 10.864C123.66 9.58115 128.61 11.574 128.531 14.5544C128.466 17.0524 132.018 18.9811 135.955 18.5848C140.654 18.1119 144.507 20.8978 143.091 23.7435C141.905 26.1288 144.445 28.6064 148.402 28.9211C153.122 29.2966 155.566 32.6496 152.928 35.1303C150.717 37.2094 152.042 40.0354 155.696 41.0356C160.055 42.2289 160.892 45.8775 157.246 47.792C154.19 49.3968 154.19 52.342 157.246 53.9467C160.892 55.8612 160.055 59.5098 155.696 60.7032C152.042 61.7034 150.717 64.5293 152.928 66.6085C155.566 69.0891 153.122 72.4421 148.402 72.8176C144.445 73.1324 141.905 75.6101 143.091 77.9953C144.507 80.841 140.654 83.6271 135.955 83.1538C132.018 82.7574 128.466 84.6867 128.531 87.1842C128.61 90.1648 123.66 92.1574 119.366 90.8747C115.766 89.7993 111.49 91.0232 110.43 93.4318C109.165 96.3053 103.52 97.3438 99.9758 95.3542C97.0054 93.6872 92.3523 94.107 90.252 96.2307C87.7461 98.7644 81.8625 98.7644 79.3566 96.2307C77.2564 94.107 72.6032 93.6872 69.6329 95.3542C66.0892 97.3438 60.4438 96.3053 59.179 93.4318C58.1188 91.0232 53.8426 89.7993 50.243 90.8747C45.9484 92.1574 40.9987 90.1648 41.0773 87.1842C41.1431 84.6867 37.5903 82.7574 33.653 83.1538C28.9556 83.6271 25.1026 80.841 26.5181 77.9953C27.7045 75.6101 25.1629 73.1324 21.207 72.8176C16.4872 72.4421 14.043 69.0891 16.6809 66.6085C18.8919 64.5293 17.5675 61.7034 13.9132 60.7032C9.55347 59.5098 8.71614 55.8612 12.3627 53.9467C15.4191 52.342 15.4191 49.3968 12.3627 47.7921C8.71614 45.8775 9.55347 42.2289 13.9132 41.0356C17.5675 40.0354 18.8919 37.2094 16.6809 35.1303C14.043 32.6496 16.4872 29.2966 21.207 28.9211C25.1629 28.6064 27.7045 26.1288 26.5181 23.7435C25.1026 20.8978 28.9556 18.1119 33.653 18.5848C37.5903 18.9811 41.1431 17.0524 41.0773 14.5544C40.9987 11.574 45.9484 9.58115 50.243 10.864C53.8426 11.9392 58.1188 10.7157 59.179 8.30723C60.4438 5.43379 66.0892 4.39528 69.6329 6.38415C72.6032 8.05115 77.2564 7.63198 79.3566 5.50826Z"
+												fill="#292E36" />
+										</svg>
+										<div class="price-block">
+											<span class="price-text">
+												Only
+											</span>
+											<span class="price-num">
+												$9
+											</span>
+										</div>
+									</div>
+									<div class="offers-item__element with-borders">
+										50% Offer Going
+									</div>
+									<h3 class="offers-item__name title">Chicken Pizza</h3>
+									<p class="offers-item__text text">Pizza with multiple flavor and the toping are
+										mixed.
+									</p>
+								</div>
+								<div class="offers-item__image">
+									<img src="images/pizza.png" alt="">
+								</div>
+							</li>
+						</ul>
+					</div>
+				</section>
+				<section class="popular">
+					<div class="container">
+						<div class="popular__info with-borders">menu</div>
+						<h2 class="popular__title title">Popular Dishes</h2>
+						<p class="popular__text text">There is a game between the waiters in restaurant to see who
+							serves
+							the
+							food to each table fastest. That led to attempting the Guinness Record.</p>
+						<ul class="popular-dishes"> <!-- grid container -->
+							<li class="popular-dishes__item">
+								<div class="popular-dishes__image">
+									<img src="images/popular-dish01.jpg" alt="">
+								</div>
+								<h3 class="popular-dishes__name">
+									Chicken Manjoori
+								</h3>
+								<div class="popular-dishes__price">
+									$15
+								</div>
+								<div class="popular-dishes__text text">
+									Dish relished by all age groups as a starter dish at parties.
+								</div>
+							</li>
+							<li class="popular-dishes__item">
+								<div class="popular-dishes__image">
+									<img src="images/popular-dish02.jpg" alt="">
+								</div>
+								<h3 class="popular-dishes__name">
+									Hotdog
+								</h3>
+								<div class="popular-dishes__price">
+									$10
+								</div>
+								<div class="popular-dishes__text text">
+									Grilled sausage served in the slit of a partially sliced bun.
+								</div>
+							</li>
+							<li class="popular-dishes__item">
+								<div class="popular-dishes__image">
+									<img src="images/popular-dish03.jpg" alt="">
+								</div>
+								<h3 class="popular-dishes__name">
+									Fresh Salmon
+								</h3>
+								<div class="popular-dishes__price">
+									$5
+								</div>
+								<div class="popular-dishes__text text">
+									Beat the health blues with our Super Immune Blue Juice Recipe.
+								</div>
+							</li>
+							<li class="popular-dishes__item">
+								<div class="popular-dishes__image">
+									<img src="images/popular-dish04.jpg" alt="">
+								</div>
+								<h3 class="popular-dishes__name">
+									Veg Burger
+								</h3>
+								<div class="popular-dishes__price">
+									$10
+								</div>
+								<div class="popular-dishes__text text">
+									Burgers may be made from ingredients like beans.
+								</div>
+							</li>
+						</ul>
+						<a class="popular__button btn-transperent">
+							See all dishes
+						</a>
+					</div>
+				</section>
+				<section class="services background-dark">
+					<div class="container">
+						<div class="services__inner">
+							<div class="services__block">
+								<div class="services__info with-borders">What we offer</div>
+								<h2 class="services__title title">Our Great Services</h2>
+								<p class="services__text text">The atmosphere set the stage. It’s about more than just a
+									dining
+									room
+									away
+									from your home. food takes the spotlight as guests.</p>
+							</div>
+							<ul class="services__list">
+								<li class="services__item">
+									<div class="services__item-image">
+										<img src="images/service01.svg" alt="">
+									</div>
+									<h3 class="services__item-name">Opened 24/7</h3>
+								</li>
+								<li class="services__item">
+									<div class="services__item-image">
+										<img src="images/service02.svg" alt="">
+									</div>
+									<h3 class="services__item-name">Special Menus</h3>
+								</li>
+								<li class="services__item">
+									<div class="services__item-image">
+										<img src="images/service03.svg" alt="">
+									</div>
+									<h3 class="services__item-name">Home Delivery</h3>
+								</li>
+							</ul>
+
+						</div>
+					</div>
+				</section>
+				<section class="blog">
+					<div class="container">
+						<div class="blog__info with-borders">blog</div>
+						<h2 class="blog__title title">Be First Who Read News</h2>
+						<p class="blog__text text">Explore the latest stories about our dishes, offers, events and
+							future
+							plans here.</p>
+						<ul class="blog__list">
+							<li class="blog__item">
+								<div class="blog__item-image" style="background: url('images/blog-image01.jpg') no-repeat center center;
+								background-size: cover; height: 384px;">
+									<a href="#" class="blog__item-button btn-orange">View More</a>
+								</div>
+								<div class="blog__desc">
+									<div class="blog__item-type with-borders">Delicious</div>
+									<div class="blog__item-date with-borders">March 19, 2022</div>
+									<h3 class="blog__item-name">The Legend of US Cuisine: The Story of Hungry People
+									</h3>
+									<div class="blog__item-text text">Capitalize on low-hanging fruit to identify a
+										ballpark
+										value
+										added
+										matrix economically and the creative activity to beta test override the food
+										quality.
+									</div>
+								</div>
+							</li>
+							<li class="blog__item">
+								<div class="blog__item-image" style="background: url('images/blog-image02.jpg') no-repeat center center;
+								background-size: cover; height: 384px;">
+									<a href="#" class="blog__item-button btn-orange">View More</a>
+								</div>
+								<div class="blog__desc">
+									<div class="blog__item-type with-borders">Cooking</div>
+									<div class="blog__item-date with-borders">March 19, 2022</div>
+									<h3 class="blog__item-name">The Most Popular Delicious Food of Mediterranean Cuisine
+									</h3>
+									<div class="blog__item-text text">Strategies on low-hanging fruit to identify a
+										ballpark
+										value
+										added
+										matrix economically and the creative activity to beta test override the food
+										quality.
+									</div>
+								</div>
+							</li>
+						</ul>
+					</div>
+				</section>
+				<section class="reservation">
+					<div class="reservation__block">
+						<div class="reservation__block-info with-borders">reservation</div>
+						<h2 class="reservation__block-title title">Book Your Table</h2>
+						<form action="">
+							<div class="reservation-form">
+								<input type="text" placeholder="Name" class="reservation-form__input input-name">
+								<input type="email" placeholder="Email" class="reservation-form__input input-email">
+								<input type="text" placeholder="Persons" class="reservation-form__input input-persons">
+								<input type="text" placeholder="Timing" class="reservation-form__input input-timing">
+								<input type="text" placeholder="Date" class="reservation-form__input input-date">
+							</div>
+							<button class="reservation-form__button">Book A Table</button>
+						</form>
+					</div>
+				</section>
+			</main>
+			<footer class="footer background-dark">
+				<section class="info">
+					<div class="container">
+						<div class="info__inner">
+							<div class="hashtag">#TheTastEat</div>
+							<a href="#" class="logo">
+								<img src="images/logo.svg" alt="">
+							</a>
+							<div class="networks">
+								<ul class="networks__list">
+									<li class="networks__list-item">
+										<a href="#" class="networks__list-link"><img src="images/insta.svg" alt=""
+												class="insta"></a>
+									</li>
+									<li class="networks__list-item">
+										<a href="#" class="networks__list-link"><img src="images/facebook.svg" alt=""
+												class="facebook"></a>
+									</li>
+									<li class="networks__list-item">
+										<a href="#" class="networks__list-link"><img src="images/twitter.svg" alt=""
+												class="twitter"></a>
+									</li>
+									<li class="networks__list-item">
+										<a href="#" class="networks__list-link"><img src="images/pinterest.svg" alt=""
+												class="pinterest"></a>
+									</li>
+								</ul>
+							</div>
+						</div>
+					</div>
+				</section>
+				<section class="support">
+					<div class="container">
+						<div class="support__inner">
+							<div class="contacts">
+								<div class="contacts__info with-borders">Contact</div>
+								<div class="contacts__adress text">5 Rue Dalou, 75015 Paris</div>
+								<div class="contacts__tel text">+123 456 789</div>
+								<div class="contacts__mail text">josefin@mail.com</div>
+							</div>
+							<div class="support-form">
+								<p class="support-form__text text">Join our mailing list for updates, Get news & offers
+									events.
+								</p>
+								<form action="">
+									<input type="email" placeholder="Email" class="support-form__input">
+									<button class="support-form__btn">Subscribe</button>
+								</form>
+							</div>
+							<div class="working-hours">
+								<div class="working-hours__info with-borders">Working Hours</div>
+								<ul class="working-hours__list">
+									<li class="working-hours__list-item text">
+										<span>Mon – Fri: </span>7.00am – 6.00pm
+									</li>
+									<li class="working-hours__list-item text">
+										<span>Sat: </span> 7.00am – 6.00pm
+									</li>
+									<li class="working-hours__list-item text">
+										<span>Sun:</span> 8.00am – 6.00pm
+									</li>
+								</ul>
+							</div>
+						</div>
+					</div>
+				</section>
+				<div class="copy">
+					<div class="container">
+						<div class="copy__inner">
+							<nav class="copy-nav">
+								<ul class="copy-nav__list">
+									<li class="copy-nav__list-item text">© Copyright - TastEat | Designed by</li>
+									<li class="copy-nav__list-item text orange">VictorFlow</li>
+									<li class="copy-nav__list-item text">- Powered by</li>
+									<li class="copy-nav__list-item text orange">Webflow</li>
+								</ul>
+							</nav>
+							<nav class="copy-nav">
+								<ul class="copy-nav__list">
+									<li class="copy-nav__list-item text orange">Styleguide</li>
+									<li class="copy-nav__list-item text orange">Licenses</li>
+									<li class="copy-nav__list-item text orange">Protected</li>
+									<li class="copy-nav__list-item text orange">Not Found</li>
+								</ul>
+							</nav>
+						</div>
+					</div>
+				</div>
+			</footer>
+		</div>
+	</div>
+
+	<script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+	<script src="js/main.min.js"></script>
 </body>
+
 </html>
